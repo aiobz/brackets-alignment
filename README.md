@@ -1,14 +1,14 @@
-##"Align It!" Extension for [Brackets](http://brackets.io)
+## brackets-Alignment for [Brackets](http://brackets.io)
 
 [Brackets on GitHub](https://github.com/adobe/brackets)
 
-This [Brackets](http://brackets.io) extension allows you to make some beautiful code alignments of object literals and variable assignments.
+This [Brackets](http://brackets.io) extension allows you to make some beautiful code alignments of object literals and variable assignments.Base from [Align It!](https://github.com/ggarek/brackets-extension-alignit).
 
 ### Installation
 * Select **File > Extension Manager**
 * Click **Install from URL**
 * Enter the url of this repo: 
- * https://github.com/ggarek/brackets-extension-alignit
+ * https://github.com/zhaopengme/brackets-Alignment
 * Click **Install**
 
 
@@ -49,7 +49,6 @@ will be transformed to:
 		isCanceled 	= false,
 		emptyObj 	= {};
 
-##Soon
 #####Example #2:
 This code snippet:
 

@@ -51,7 +51,7 @@ define(function (require, exports, module) {
             hard : 2
         },
         alignMode = alignModes.soft,
-        separator = "=",
+        separator = ["=",":"],
         indentInfo = {
             char : " ",
             count : 2
@@ -118,14 +118,21 @@ define(function (require, exports, module) {
             }
 
             // Find separator
-            idx = line.indexOf(separator);
+			var sep = "=";//default "="
+			for(var i=0;i<separator.length;i++){
+				if(line.indexOf(separator[i])>-1){
+					idx=line.indexOf(separator[i]);
+					sep=separator[i];
+					break;
+				}
+			}
 
             // Create entry to align
             entry = {
                 row : i,
                 source : line,
                 separator : {
-                    value : separator,
+                    value : sep,
                     column : idx
                 },
                 // IF there is no separator in the line, there is no need to align it

@@ -1,8 +1,8 @@
 {
     "name": "brackets-alignment",
-    "title": "Align It!",
+    "title": "brackets alignment",
     "description": "A Brackets extension to align assignments and object literals (Hotkey: Ctrl+\\)",
-    "homepage": "https://github.com/ggarek/brackets-extension-alignit",
+    "homepage": "https://github.com/zhaopengme/brackets-alignment",
     "version": "0.2.0",
     "author": "mikey.zhaopeng",
     "license": "MIT",

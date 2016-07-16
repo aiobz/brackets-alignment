@@ -14,7 +14,7 @@ This [Brackets](http://brackets.io) extension allows you to make some beautiful 
 
 ### How To Use
 1. Make selection of code range you want to align in the editor
-2. Press **"Ctrl+\"** hotkey or go to **"Edit->Align It"** menu item
+2. Press **"Ctrl+\"** or **"Cmd+Alt+\"** hotkey or go to **"Edit->Align It"** menu item
 3. The magic has happend! ^__^
 
 ### Usage examples

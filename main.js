@@ -45,7 +45,7 @@ define(function (require, exports, module) {
     // Some extension options, hardcoded yet
     var CMD_ID            = "ggarek.alignit",
         CMD_NAME          = "Align it",
-        CMD_HOTKEYS       = ["Ctrl-\\"],
+        CMD_HOTKEYS       = ["Ctrl-\\", "Cmd-Alt-\\"],
         alignModes = {
             soft : 1,
             hard : 2
